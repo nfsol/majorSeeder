@@ -1,0 +1,17 @@
+{
+  "name": "majorseeder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "seed": "node seed.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ngneat/falso": "^6.1.0",
+    "dotenv": "^16.0.2",
+    "mongodb": "^4.9.1"
+  }
+}
