@@ -27,8 +27,8 @@ async function seedDB() {
       let newProduct = {
         name: randProductName(),
         upc: randNumber({ min: 100000000000, max: 999999999999 }),
-        exp: [dateFactory(), dateFactory(), dateFactory(), dateFactory()],
-        image: randImg(),
+        exp: [dateFactory().toDateString(), dateFactory().toDateString(), dateFactory().toDateString(), dateFactory().toDateString()],
+        image: 'https://picsum.photos/270/480',
       };
       console.log(newProduct);
       productList.push(newProduct);
